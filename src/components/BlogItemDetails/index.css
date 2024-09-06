@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.blogItem {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px 25px 0 25px;
+}
+.img {
+  height: 55px;
+  width: 55px;
+  border-radius: 25px;
+}
+.img-blog {
+  height: 400px;
+  width: 75vw;
+}
+.author {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #000000;
+  margin: 15px 10px 5px 20px;
+}
+.img-card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.title {
+  font-size: 25px;
+  color: #000000;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  text-align: center;
+}
